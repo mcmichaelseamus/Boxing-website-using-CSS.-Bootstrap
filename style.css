@@ -22,8 +22,8 @@ display: block;
 .about-paragraph{
 
 }
-blockquote::first-letter{
-font-size: 30px;
+blockquote:before{
+    content:'';
 }
 
 body {
@@ -34,16 +34,6 @@ body {
  
 }
 
-a {
-text-decoration: underline;
-color: black;
-
-
-}
-
-a:hover {
-color: blue;
-}
 
 
 a:visited {
